@@ -14,35 +14,44 @@ body {
 </style>
 
 <script setup lang="ts">
-// Global app configuration
+
 useHead({
-  title: 'Dr Connect | Book Trusted Doctors & Medical Consultations Online',
+  title: "Marquis Abah — Fullstack Engineer",
   meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { name: 'format-detection', content: 'telephone=no' }
+    { charset: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    {
+      name: "description",
+      content:
+        "Fullstack Software Engineer with 5+ years experience building scalable and secure products across FinTech, EdTech, HealthTech, and AgroTech.",
+    },
+    { name: "format-detection", content: "telephone=no" }
   ],
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-    { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-    { 
-      rel: 'stylesheet', 
-      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap' 
+    { rel: "preconnect", href: "https://fonts.googleapis.com" },
+    { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.ico"
     }
   ]
 })
 
 useSeoMeta({
-  title: 'Dr Connect — Book Doctors & Medical Consultations Online in Seconds',
-  ogTitle: 'Dr Connect — Find & Book Verified Doctors in Minutes',
-  description: 'Dr Connect is the easiest way to find verified doctors, book medical consultations, and access healthcare conveniently from anywhere. Secure, fast, and reliable telehealth.',
-  ogDescription: 'Book verified doctors and medical consultations instantly with Dr Connect. Secure telehealth services, appointment scheduling, and digital healthcare access.',
-  ogImage: '/images/og-image.jpg',
-  ogUrl: 'https://drconnect.ng',
-  twitterTitle: 'Dr Connect — Your Digital Doctor Appointment Platform',
-  twitterDescription: 'Find trusted doctors, schedule medical visits, and access telehealth services online with Dr Connect.',
-  twitterImage: '/images/og-image.jpg',
-  twitterCard: 'summary_large_image'
+  title: "Marquis Abah — Fullstack Engineer",
+  ogTitle: "Marquis Abah — Fullstack Engineer & Product Builder",
+  description:
+    "Portfolio of Marquis Abah — a Fullstack Engineer experienced in scalable backend systems, distributed architecture, DevOps, and modern UI engineering.",
+  ogDescription:
+    "Explore portfolio, experience, projects, and expertise of Marquis Abah — Fullstack Software Engineer building global digital products.",
+  ogImage: "/images/portfolio-og.png",
+  ogUrl: "https://marquisabah.com",
+  twitterTitle: "Marquis Abah — Software Engineer",
+  twitterDescription:
+    "Fullstack Engineer building scalable and production-ready digital products, microservices, and automated DevOps pipelines.",
+  twitterImage: "/images/portfolio-og.png",
+  twitterCard: "summary_large_image"
 })
+
 </script>
